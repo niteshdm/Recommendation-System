@@ -1,6 +1,6 @@
 import numpy as np
 from lightfm.datasets import fetch_movielens
-from lightFM import LightFM
+from lightfm import LightFM
 #fetching the data
 data = fetch_movielens(min_rating=5.0)
 #Printing the training and test data
